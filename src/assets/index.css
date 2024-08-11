@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply text-blue-500 transition-all hover:text-blue-400 hover:underline;
+}
+
+.dave {
+  background-color: greenyellow;
+}
+
+.flair {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
